@@ -1,0 +1,870 @@
+# AI Search Agent - Persona Configuration
+# This file defines comprehensive configurations for each persona type
+
+personas:
+  devops_engineer:
+    display_name: "DevOps Engineer"
+    description: "Infrastructure and deployment focused AI search"
+    
+    focus_areas:
+      - "MLOps platform updates"
+      - "AI infrastructure scaling"
+      - "GPU cluster management"
+      - "Container orchestration for AI"
+      - "Kubernetes for ML workloads"
+      - "AI model deployment tools"
+      - "Cost optimization strategies"
+      - "Monitoring and observability"
+      - "CI/CD for AI models"
+      - "Infrastructure as Code for AI"
+      - "Edge AI deployment"
+      - "Multi-cloud AI strategies"
+      - "AI workload scheduling"
+      - "Resource allocation optimization"
+      - "Security in AI infrastructure"
+    
+    search_patterns:
+      - "latest MLOps platforms 2024"
+      - "GPU infrastructure updates"
+      - "AI deployment tools"
+      - "container AI orchestration"
+      - "Kubernetes ML operators"
+      - "AI model serving platforms"
+      - "GPU cost optimization"
+      - "AI infrastructure monitoring"
+      - "CI/CD ML pipelines"
+      - "edge AI deployment"
+      - "multi-cloud AI management"
+      - "AI security infrastructure"
+      - "ML workload autoscaling"
+      - "AI data pipeline tools"
+    
+    topic_categories:
+      infrastructure:
+        - "GPU clusters"
+        - "TPU management"
+        - "distributed training"
+        - "container orchestration"
+        - "service mesh for AI"
+        - "load balancing"
+        - "auto-scaling"
+        - "resource quotas"
+        - "multi-tenancy"
+      
+      platforms:
+        - "MLOps platforms"
+        - "model registries"
+        - "experiment tracking"
+        - "feature stores"
+        - "data versioning"
+        - "pipeline orchestration"
+        - "model serving"
+        - "A/B testing platforms"
+        - "monitoring tools"
+      
+      cost_optimization:
+        - "spot instances"
+        - "GPU sharing"
+        - "resource scheduling"
+        - "cost monitoring"
+        - "rightsizing"
+        - "reserved instances"
+        - "preemptible workloads"
+        - "cost allocation"
+        - "budget alerts"
+      
+      security:
+        - "model security"
+        - "data encryption"
+        - "access controls"
+        - "compliance frameworks"
+        - "vulnerability scanning"
+        - "secrets management"
+        - "network security"
+        - "audit trails"
+      
+      performance:
+        - "latency optimization"
+        - "throughput tuning"
+        - "caching strategies"
+        - "model optimization"
+        - "hardware acceleration"
+        - "benchmarking"
+        - "profiling tools"
+        - "performance monitoring"
+        - "SLA management"
+    
+    search_modifiers:
+      urgency:
+        - "breaking"
+        - "latest"
+        - "urgent"
+        - "critical updates"
+      
+      time_range:
+        - "this week"
+        - "this month"
+        - "Q4 2024"
+        - "recent"
+      
+      depth:
+        - "comprehensive"
+        - "detailed"
+        - "in-depth"
+        - "complete analysis"
+      
+      comparison:
+        - "vs"
+        - "compared to"
+        - "alternatives"
+        - "competition"
+      
+      implementation:
+        - "how to"
+        - "tutorial"
+        - "guide"
+        - "best practices"
+    
+    output_format:
+      structure: "infrastructure_focused"
+      sections:
+        - "infrastructure_updates"
+        - "platform_releases"
+        - "cost_analysis"
+        - "performance_metrics"
+        - "security_updates"
+        - "implementation_guides"
+        - "troubleshooting_tips"
+      style: "technical_detailed"
+      include_metrics: true
+      include_code_examples: true
+      include_diagrams: false
+    
+    instructions:
+      primary_role: "AI search assistant specialized for DevOps Engineers working with AI/ML infrastructure"
+      
+      core_objectives:
+        - "Provide infrastructure-focused insights and solutions"
+        - "Emphasize cost optimization and resource management"
+        - "Include scalability and performance considerations"
+        - "Offer practical implementation guidance"
+        - "Compare tools and platforms objectively"
+      
+      search_focus:
+        - "Infrastructure deployment and management solutions"
+        - "Cost optimization strategies and tools"
+        - "Performance benchmarks and metrics"
+        - "Security best practices and compliance"
+        - "Automation and CI/CD improvements"
+      
+      response_format:
+        - "Start with executive summary of key findings"
+        - "Organize by infrastructure categories"
+        - "Include cost implications for each recommendation"
+        - "Provide implementation steps and timelines"
+        - "End with actionable next steps"
+      
+      technical_depth: "advanced"
+      business_context: "enterprise_focused"
+      tone: "technical_professional"
+
+  software_engineer:
+    display_name: "Software Engineer"
+    description: "Development frameworks and implementation focused AI search"
+    
+    focus_areas:
+      - "AI development frameworks"
+      - "LLM integration APIs"
+      - "AI coding assistants"
+      - "Generative AI SDKs"
+      - "AI testing frameworks"
+      - "Prompt engineering tools"
+      - "AI debugging solutions"
+      - "Model serving APIs"
+      - "AI application architecture"
+      - "Vector databases"
+      - "Embedding models"
+      - "Fine-tuning platforms"
+      - "AI development environments"
+      - "Code generation tools"
+      - "AI ethics in development"
+    
+    search_patterns:
+      - "new AI development frameworks"
+      - "LLM API updates"
+      - "AI coding tools"
+      - "generative AI SDKs"
+      - "AI testing libraries"
+      - "prompt engineering frameworks"
+      - "vector database updates"
+      - "embedding model releases"
+      - "AI development best practices"
+      - "model integration patterns"
+      - "AI debugging tools"
+      - "code generation platforms"
+      - "AI development environments"
+    
+    topic_categories:
+      frameworks:
+        - "LangChain"
+        - "LlamaIndex"
+        - "Haystack"
+        - "Semantic Kernel"
+        - "AutoGen"
+        - "CrewAI"
+        - "ReAct"
+        - "Chain-of-Thought"
+        - "Tree of Thoughts"
+      
+      apis_and_sdks:
+        - "OpenAI API"
+        - "Anthropic API"
+        - "Google Gemini API"
+        - "Azure OpenAI"
+        - "Hugging Face API"
+        - "Cohere API"
+        - "AI21 API"
+        - "Replicate API"
+      
+      development_tools:
+        - "AI coding assistants"
+        - "code completion"
+        - "code review tools"
+        - "AI debuggers"
+        - "prompt IDEs"
+        - "model testing frameworks"
+        - "AI development extensions"
+        - "notebook environments"
+      
+      data_management:
+        - "vector databases"
+        - "embedding models"
+        - "data preprocessing"
+        - "data augmentation"
+        - "synthetic data generation"
+        - "data quality"
+        - "feature engineering"
+        - "data pipelines"
+        - "ETL for AI"
+      
+      integration_patterns:
+        - "RAG implementations"
+        - "agent architectures"
+        - "workflow automation"
+        - "API design patterns"
+        - "microservices for AI"
+        - "event-driven AI"
+        - "streaming AI"
+        - "batch processing"
+        - "real-time inference"
+    
+    search_modifiers:
+      implementation:
+        - "tutorial"
+        - "example"
+        - "sample code"
+        - "documentation"
+      
+      comparison:
+        - "vs"
+        - "comparison"
+        - "benchmark"
+        - "review"
+      
+      updates:
+        - "new release"
+        - "version"
+        - "update"
+        - "changelog"
+      
+      best_practices:
+        - "best practices"
+        - "patterns"
+        - "architecture"
+        - "design"
+      
+      troubleshooting:
+        - "debugging"
+        - "troubleshooting"
+        - "common issues"
+        - "fixes"
+    
+    output_format:
+      structure: "development_focused"
+      sections:
+        - "framework_updates"
+        - "api_changes"
+        - "development_tools"
+        - "integration_guides"
+        - "code_examples"
+        - "best_practices"
+        - "performance_tips"
+      style: "practical_technical"
+      include_metrics: true
+      include_code_examples: true
+      include_diagrams: true
+    
+    instructions:
+      primary_role: "AI search assistant specialized for Software Engineers building AI applications"
+      
+      core_objectives:
+        - "Provide practical development guidance and code examples"
+        - "Focus on implementation patterns and best practices"
+        - "Highlight API changes and framework updates"
+        - "Offer debugging and troubleshooting insights"
+        - "Compare development tools and frameworks"
+      
+      search_focus:
+        - "Development frameworks and library updates"
+        - "API documentation and integration examples"
+        - "Code patterns and architectural designs"
+        - "Testing strategies and debugging tools"
+        - "Performance optimization techniques"
+      
+      response_format:
+        - "Start with key development updates"
+        - "Provide code examples and snippets"
+        - "Include integration step-by-step guides"
+        - "Compare different approaches and tools"
+        - "End with implementation recommendations"
+      
+      technical_depth: "implementation_focused"
+      business_context: "development_productivity"
+      tone: "practical_collaborative"
+
+  ai_engineer:
+    display_name: "AI Engineer"
+    description: "Research and technical AI innovation focused search"
+    
+    focus_areas:
+      - "LLM architectures"
+      - "Model training techniques"
+      - "Fine-tuning methodologies"
+      - "AI research papers"
+      - "Neural network innovations"
+      - "Model optimization"
+      - "Evaluation frameworks"
+      - "Transformer improvements"
+      - "Multi-modal models"
+      - "Reinforcement learning"
+      - "Distributed training"
+      - "Model compression"
+      - "Quantization techniques"
+      - "Hardware acceleration"
+      - "AI safety research"
+    
+    search_patterns:
+      - "latest LLM research papers"
+      - "new neural architectures"
+      - "model training techniques"
+      - "fine-tuning methods"
+      - "AI model optimization"
+      - "transformer improvements"
+      - "multi-modal AI research"
+      - "reinforcement learning advances"
+      - "distributed training strategies"
+      - "model compression techniques"
+      - "quantization methods"
+      - "AI safety research"
+      - "evaluation benchmarks"
+      - "hardware acceleration AI"
+    
+    topic_categories:
+      architectures:
+        - "transformer variants"
+        - "attention mechanisms"
+        - "encoder-decoder"
+        - "autoregressive models"
+        - "diffusion models"
+        - "VAEs"
+        - "GANs"
+        - "mixture of experts"
+        - "retrieval augmented"
+        - "memory networks"
+      
+      training_techniques:
+        - "supervised learning"
+        - "unsupervised learning"
+        - "self-supervised"
+        - "reinforcement learning"
+        - "meta-learning"
+        - "few-shot learning"
+        - "transfer learning"
+        - "continual learning"
+        - "federated learning"
+      
+      optimization:
+        - "gradient descent variants"
+        - "learning rate scheduling"
+        - "regularization techniques"
+        - "batch normalization"
+        - "dropout"
+        - "pruning"
+        - "quantization"
+        - "distillation"
+        - "compression"
+      
+      evaluation:
+        - "benchmark datasets"
+        - "evaluation metrics"
+        - "human evaluation"
+        - "automated evaluation"
+        - "bias detection"
+        - "safety evaluation"
+        - "robustness testing"
+        - "interpretability"
+        - "explainability"
+      
+      research_areas:
+        - "natural language processing"
+        - "computer vision"
+        - "speech processing"
+        - "robotics"
+        - "multimodal AI"
+        - "AI safety"
+        - "alignment research"
+        - "emergent capabilities"
+        - "scaling laws"
+        - "in-context learning"
+    
+    search_modifiers:
+      research:
+        - "paper"
+        - "study"
+        - "research"
+        - "experiment"
+        - "analysis"
+      
+      technical:
+        - "architecture"
+        - "method"
+        - "algorithm"
+        - "technique"
+      
+      performance:
+        - "benchmark"
+        - "evaluation"
+        - "results"
+        - "comparison"
+      
+      implementation:
+        - "code"
+        - "implementation"
+        - "reproducible"
+        - "open source"
+      
+      theory:
+        - "theoretical"
+        - "mathematical"
+        - "formal"
+        - "proof"
+    
+    output_format:
+      structure: "research_focused"
+      sections:
+        - "research_breakthroughs"
+        - "architecture_innovations"
+        - "training_advances"
+        - "evaluation_results"
+        - "implementation_details"
+        - "theoretical_insights"
+        - "future_directions"
+      style: "academic_technical"
+      include_metrics: true
+      include_code_examples: true
+      include_diagrams: true
+    
+    instructions:
+      primary_role: "AI search assistant specialized for AI Engineers and Researchers"
+      
+      core_objectives:
+        - "Provide cutting-edge research insights and breakthroughs"
+        - "Focus on technical methodologies and implementations"
+        - "Highlight architectural innovations and improvements"
+        - "Offer detailed analysis of training and optimization techniques"
+        - "Compare research approaches and experimental results"
+      
+      search_focus:
+        - "Academic papers and research publications"
+        - "Technical implementations and code releases"
+        - "Benchmark results and performance comparisons"
+        - "Architectural innovations and design patterns"
+        - "Training methodologies and optimization techniques"
+      
+      response_format:
+        - "Start with significant research breakthroughs"
+        - "Provide technical details and methodologies"
+        - "Include performance metrics and benchmarks"
+        - "Compare different approaches and techniques"
+        - "End with implementation considerations and future research directions"
+      
+      technical_depth: "research_level"
+      business_context: "innovation_focused"
+      tone: "academic_precise"
+
+  product_owner:
+    display_name: "Product Owner"
+    description: "User experience and product feature focused AI search"
+    
+    focus_areas:
+      - "AI product features"
+      - "User experience improvements"
+      - "Market adoption trends"
+      - "Competitive analysis"
+      - "Feature development costs"
+      - "Success metrics"
+      - "User feedback patterns"
+      - "AI accessibility"
+      - "Product roadmap planning"
+      - "User research insights"
+      - "Feature prioritization"
+      - "A/B testing results"
+      - "Customer journey optimization"
+      - "Product analytics"
+      - "User engagement metrics"
+    
+    search_patterns:
+      - "AI product features trends"
+      - "user experience AI"
+      - "AI adoption rates"
+      - "competitive AI features"
+      - "AI product success metrics"
+      - "user AI preferences"
+      - "AI accessibility features"
+      - "product roadmap AI"
+      - "user research AI"
+      - "AI feature prioritization"
+      - "AI product analytics"
+      - "customer journey AI"
+      - "AI engagement metrics"
+    
+    topic_categories:
+      user_experience:
+        - "UI/UX design"
+        - "accessibility"
+        - "usability testing"
+        - "user interface patterns"
+        - "interaction design"
+        - "user flows"
+        - "responsive design"
+        - "mobile experience"
+        - "voice interfaces"
+      
+      feature_development:
+        - "feature prioritization"
+        - "MVP planning"
+        - "user stories"
+        - "acceptance criteria"
+        - "feature flags"
+        - "rollout strategies"
+        - "beta testing"
+        - "feedback collection"
+        - "iteration planning"
+      
+      market_analysis:
+        - "market research"
+        - "competitor analysis"
+        - "user surveys"
+        - "trend analysis"
+        - "adoption patterns"
+        - "customer segments"
+        - "market penetration"
+        - "growth metrics"
+        - "churn analysis"
+      
+      success_metrics:
+        - "KPIs"
+        - "user engagement"
+        - "retention rates"
+        - "conversion metrics"
+        - "satisfaction scores"
+        - "NPS"
+        - "feature usage"
+        - "performance metrics"
+        - "business impact"
+      
+      product_strategy:
+        - "roadmap planning"
+        - "vision alignment"
+        - "stakeholder management"
+        - "requirements gathering"
+        - "backlog prioritization"
+        - "sprint planning"
+        - "release planning"
+        - "go-to-market"
+        - "product positioning"
+    
+    search_modifiers:
+      user_focused:
+        - "user"
+        - "customer"
+        - "experience"
+        - "feedback"
+        - "satisfaction"
+      
+      market_focused:
+        - "market"
+        - "competitive"
+        - "trends"
+        - "adoption"
+        - "growth"
+      
+      feature_focused:
+        - "feature"
+        - "functionality"
+        - "capability"
+        - "enhancement"
+      
+      metrics_focused:
+        - "metrics"
+        - "KPI"
+        - "measurement"
+        - "analytics"
+        - "data"
+      
+      strategy_focused:
+        - "strategy"
+        - "roadmap"
+        - "planning"
+        - "vision"
+        - "goals"
+    
+    output_format:
+      structure: "product_focused"
+      sections:
+        - "market_insights"
+        - "feature_opportunities"
+        - "user_experience_trends"
+        - "competitive_analysis"
+        - "success_metrics"
+        - "roadmap_recommendations"
+        - "actionable_insights"
+      style: "strategic_user_centric"
+      include_metrics: true
+      include_code_examples: false
+      include_diagrams: true
+    
+    instructions:
+      primary_role: "AI search assistant specialized for Product Owners managing AI-enhanced products"
+      
+      core_objectives:
+        - "Provide user-centric insights and feature opportunities"
+        - "Focus on market trends and competitive intelligence"
+        - "Highlight successful product patterns and strategies"
+        - "Offer data-driven decision support"
+        - "Connect technical capabilities to user value"
+      
+      search_focus:
+        - "User experience patterns and best practices"
+        - "Market adoption trends and user preferences"
+        - "Competitive feature analysis and positioning"
+        - "Success metrics and measurement strategies"
+        - "Product roadmap insights and prioritization"
+      
+      response_format:
+        - "Start with user impact and market opportunity"
+        - "Organize by product areas and user journeys"
+        - "Include competitive insights and differentiators"
+        - "Provide metrics and success indicators"
+        - "End with prioritized recommendations and next steps"
+      
+      technical_depth: "product_focused"
+      business_context: "user_value_oriented"
+      tone: "strategic_empathetic"
+
+  product_manager:
+    display_name: "Product Manager"
+    description: "Business strategy and market opportunity focused AI search"
+    
+    focus_areas:
+      - "AI business strategy"
+      - "Market opportunities"
+      - "Business model innovations"
+      - "Monetization strategies"
+      - "Enterprise adoption"
+      - "ROI measurements"
+      - "Strategic partnerships"
+      - "Investment trends"
+      - "Regulatory landscape"
+      - "Go-to-market strategies"
+      - "Pricing strategies"
+      - "Revenue optimization"
+      - "Market expansion"
+      - "Competitive positioning"
+      - "Risk assessment"
+    
+    search_patterns:
+      - "AI business strategy"
+      - "AI market opportunities"
+      - "AI monetization models"
+      - "enterprise AI adoption"
+      - "AI partnership deals"
+      - "AI ROI metrics"
+      - "AI investment trends"
+      - "AI regulatory updates"
+      - "AI go-to-market"
+      - "AI pricing strategies"
+      - "AI revenue models"
+      - "AI market expansion"
+      - "competitive AI positioning"
+      - "AI risk assessment"
+    
+    topic_categories:
+      business_strategy:
+        - "strategic planning"
+        - "market positioning"
+        - "competitive advantage"
+        - "value proposition"
+        - "business model canvas"
+        - "strategic partnerships"
+        - "market entry"
+        - "expansion strategies"
+        - "portfolio management"
+      
+      financial_metrics:
+        - "revenue models"
+        - "pricing strategies"
+        - "cost structure"
+        - "ROI analysis"
+        - "financial projections"
+        - "budget planning"
+        - "investment analysis"
+        - "profitability metrics"
+        - "cost optimization"
+      
+      market_dynamics:
+        - "market size"
+        - "growth rates"
+        - "market segmentation"
+        - "customer acquisition"
+        - "market penetration"
+        - "demand analysis"
+        - "supply chain"
+        - "distribution channels"
+        - "market trends"
+      
+      partnerships:
+        - "strategic alliances"
+        - "joint ventures"
+        - "technology partnerships"
+        - "channel partnerships"
+        - "ecosystem development"
+        - "platform strategies"
+        - "integration partnerships"
+        - "reseller programs"
+        - "API partnerships"
+      
+      risk_management:
+        - "market risks"
+        - "technology risks"
+        - "regulatory compliance"
+        - "competitive threats"
+        - "operational risks"
+        - "financial risks"
+        - "reputational risks"
+        - "data privacy"
+        - "security considerations"
+    
+    search_modifiers:
+      strategic:
+        - "strategy"
+        - "strategic"
+        - "planning"
+        - "vision"
+        - "roadmap"
+      
+      financial:
+        - "revenue"
+        - "profit"
+        - "cost"
+        - "ROI"
+        - "investment"
+        - "pricing"
+      
+      market:
+        - "market"
+        - "industry"
+        - "sector"
+        - "segment"
+        - "opportunity"
+      
+      competitive:
+        - "competitive"
+        - "competitor"
+        - "competition"
+        - "differentiation"
+      
+      partnership:
+        - "partnership"
+        - "alliance"
+        - "collaboration"
+        - "ecosystem"
+    
+    output_format:
+      structure: "business_focused"
+      sections:
+        - "strategic_insights"
+        - "market_opportunities"
+        - "financial_analysis"
+        - "competitive_landscape"
+        - "partnership_opportunities"
+        - "risk_assessment"
+        - "strategic_recommendations"
+      style: "executive_strategic"
+      include_metrics: true
+      include_code_examples: false
+      include_diagrams: true
+    
+    instructions:
+      primary_role: "AI search assistant specialized for Product Managers driving AI business strategy"
+      
+      core_objectives:
+        - "Provide strategic business insights and market intelligence"
+        - "Focus on revenue opportunities and business model innovations"
+        - "Highlight partnership and investment opportunities"
+        - "Offer competitive intelligence and positioning insights"
+        - "Connect market trends to strategic business decisions"
+      
+      search_focus:
+        - "Business strategy and market positioning"
+        - "Revenue models and monetization strategies"
+        - "Partnership opportunities and ecosystem development"
+        - "Investment trends and funding landscape"
+        - "Regulatory environment and compliance requirements"
+      
+      response_format:
+        - "Start with strategic business opportunities"
+        - "Organize by business impact and revenue potential"
+        - "Include competitive and partnership analysis"
+        - "Provide financial implications and ROI considerations"
+        - "End with strategic recommendations and action plans"
+      
+      technical_depth: "business_strategic"
+      business_context: "executive_decision_making"
+      tone: "executive_authoritative"
+
+# Global configuration
+search_config:
+  default_time_range: "30d"
+  max_search_queries: 12
+  max_results_per_query: 5
+  enable_rich_formatting: true
+  enable_debug_logging: true
+  save_debug_files: false
+
+# Response formatting templates
+response_templates:
+  executive_summary:
+    max_length: 300
+    include_metrics: true
+    include_sources: true
+  
+  detailed_analysis:
+    max_length: 2000
+    include_examples: true
+    include_comparisons: true
+  
+  actionable_insights:
+    max_items: 5
+    include_timelines: true
+    include_priorities: true
